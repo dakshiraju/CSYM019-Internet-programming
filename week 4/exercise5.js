@@ -1,6 +1,6 @@
 function myFunction(){
     var element=document.getElementById("id2");
-    element.firstChild.nodeValue="New content in paragraph";
+    element.firstChild.nodeValue="New contents in paragraph";
 }
 
 function changeh1ContentFun(){
