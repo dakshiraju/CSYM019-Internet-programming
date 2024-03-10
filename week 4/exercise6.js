@@ -5,6 +5,7 @@ function myFunction(){
     element.addEventListener('click',myNewFunction);
 }
 
+
 function myNewFunction()
 {
     var element=document.getElementById("heading");
