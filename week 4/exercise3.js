@@ -3,7 +3,7 @@ function myFunction(){
     element.firstChild.nodeValue="New Heading";
 
     var element=document.getElementById("id2");
-    element2.firstchild.nodeValue="New content in paragraph";
+    element2.firstchild.nodeValue="New contents in paragraph";
 }
 
 document.addEventListener('DOMContentLoaded',myfunction);
