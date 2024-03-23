@@ -1,0 +1,24 @@
+{
+    "schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Exercise",
+    "description": "An report of pet animal",
+    "type": "object",
+    "properties": {
+        "exercise": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "integer"},
+                    "animal": { "type": "string"},
+                    "number": { "type": "integer"},
+                    "location": { "type": "string"},
+                    "date": { "type": "string"},
+                    "time": { "type": "string"},
+                    
+                    "observations": { "type": "string"}
+                }
+            }
+        }
+    }
+}
