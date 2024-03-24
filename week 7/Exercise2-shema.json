@@ -1,0 +1,34 @@
+{
+    "schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Exercise",
+    "description": "An report of pet animal",
+    "type": "object",
+    "properties": {
+        "exercise": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "animal": {
+                        "type": "string",
+                        "enum": [
+                            "Beaver",
+                            "Hare",
+                            "Pine Martin",
+                            "Snowy Owl"
+                        ]
+                    },
+                    "location": {
+                        "type": "string"
+                    },
+                    "date": {
+                        "type": "string"
+                    },
+                    "time": {
+                        "type": "string"
+                    },
+                }
+            }
+        }
+    }
+}
